@@ -10,5 +10,6 @@ def line(array)
     array.each_with_index do |person, index|
       announcement = announcement + " #{index + 1}. #{person}"
     end
+    announcement
   end
 end
