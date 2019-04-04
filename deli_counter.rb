@@ -5,9 +5,10 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
     
-  else 
+  else
+    announcement = "The line is currently:" 
     array.each_with_index do |person, index|
-      puts "#{person}, you are #{index + 1} in line."
+      announcement = announcement + " #{index + 1}. #{person}"
     end
   end
 end
