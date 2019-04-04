@@ -7,7 +7,7 @@ def line
     
   else 
     katz_deli.each_with_index do |person, index|
-      "#{person}, you are #{index + 1} in line."
+      puts "#{person}, you are #{index + 1} in line."
     end
   end
 end
