@@ -23,3 +23,5 @@ def take_a_number(array, person)
   array << person
   
 end
+
+def now_serving
