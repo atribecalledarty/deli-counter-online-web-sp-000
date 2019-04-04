@@ -13,3 +13,7 @@ def line(array)
     puts announcement
   end
 end
+
+def take_a_number(array)
+  
+end
